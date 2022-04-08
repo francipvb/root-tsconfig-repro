@@ -1,36 +1,33 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
+    "noEmit": true,
     "useDefineForClassFields": true,
-    "lib": [
-      "DOM",
-      "DOM.Iterable",
-      "ESNext"
-    ],
+    "target": "ESNext",
     "allowJs": false,
     "skipLibCheck": false,
-    "esModuleInterop": false,
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "module": "ESNext",
     "moduleResolution": "Node",
     "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx"
+    "isolatedModules": true
   },
   "include": [
-    "src",
-    "lib",
     "vite-env.d.ts"
   ],
   "references": [
     {
-      "path": "./tsconfig.node.json"
+      "path": "./src"
     },
     {
-      "path": "./tsconfig.server.json"
+      "path": "./server"
+    },
+    {
+      "path": "./lib"
+    },
+    {
+      "path": "./tsconfig.node.json"
     }
   ]
 }

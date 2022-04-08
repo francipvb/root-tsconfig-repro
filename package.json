@@ -8,8 +8,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "bufferutil": "^4.0.6",
     "express": "^4.17.3",
-    "socket.io": "^4.4.1"
+    "socket.io": "^4.4.1",
+    "utf-8-validate": "^5.0.9"
   },
   "devDependencies": {
     "@emotion/react": "^11.9.0",

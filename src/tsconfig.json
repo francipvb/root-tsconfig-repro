@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "composite": true,
+        "jsx": "react-jsx",
+        "esModuleInterop": false,
+        "lib": [
+            "DOM",
+            "DOM.Iterable",
+            "ESNext"
+        ],
+    },
+    "include": [
+        "./*"
+    ]
+}
